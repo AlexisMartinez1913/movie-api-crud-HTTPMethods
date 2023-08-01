@@ -8,7 +8,6 @@ cd movie-api-crud-HTTPMethods
 py -m venv venv
 venv\Scripts\activate or
 source env/bin/activate
-py -m pip install fastapi
-py -m pip install uvicorn
+
 uvicorn main:app --reload
 ```
